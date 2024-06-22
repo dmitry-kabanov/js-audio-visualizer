@@ -6,9 +6,9 @@
 
 #container {
   position: absolute;
-  top: 0;
+  top: 50px;
   left: 0;
-  background-color: #000;
+  background-color: gray;
   width: 100%;
   height: 100%;
 }
@@ -17,8 +17,18 @@
   position:absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  background-color: black;
+}
+
+button#record {
+  position: absolute;
+  top: 10px;
+}
+
+a#download {
+  position: absolute;
+  top: 10px;
+  left: 100px;
 }
 
 :root {
